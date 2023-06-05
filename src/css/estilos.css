@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main{
+    background-image: url(../images/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-position: top 0;
+    background-size: contain;
+    /* display: grid;
+    grid-template-columns: 400px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+}
+
+.main .descricao{
+    /* grid-column: 1 / 2; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    /* padding-left: 50px; */
+}
+
+.main .descricao h1{
+    /* width: 270px; */
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.main .descricao span{
+    display: block;
+}
+
+.main .descricao p{
+    width: 300px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.main .formulario{
+    /* grid-column: 2 / 3; */
+    background-color: white;
+    padding: 20px 20px 21px 21px;
+    width: 340px;
+    margin: 12px 0 12px 50px;
+}
+
+.main .formulario input, 
+.main .formulario textarea{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    position: relative;
+}
+
+.main .formulario input:not(:first-child),
+.main .formulario textarea{
+    margin-top: 19px;
+}
+
+.main .formulario input::placeholder,
+.main .formulario textarea::placeholder {
+    font-weight: 700;
+}
+
+.main .formulario textarea{
+    height: 100px;
+    margin-bottom: 0px;
+}
+
+.main .formulario .label{
+    font-size: 10px;
+    font-weight: 400;
+    color:#F52E2E;
+    margin-bottom: 19px;
+    position: absolute;
+}
+
+.main .formulario .label.esconder{
+    display: none;
+}
+
+.main .formulario .label.mostrar{
+    display: block;
+}
+
+.main .formulario .label-fixo{
+    margin-top: 16px;
+    font-size: 15px;
+    color: black;
+    display: block;
+}
+
+.main .formulario .btn{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #3CCC87;
+    border: 1px solid #3CCC87;
+    color: #fff;
+    cursor: pointer;
+}
