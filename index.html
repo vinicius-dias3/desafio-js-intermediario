@@ -16,22 +16,26 @@
             <p>caso tenha com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
         </div>
 
-        <form class="formulario" action="" method="post"> 
-            <input type="text" name="nome-completo" id="" placeholder="Nome completo *">
-            <label class="label esconder" id="campo-obrigatorio" for="nome-completo">campo obrigatório</label>
+        <form class="formulario" action="#" method="get">  
+            <input type="text" class="input padrao" name="nome-completo" id="nome-completo" placeholder="Nome completo *">
+            <label class="label esconder" for="nome-completo">campo obrigatório</label>
 
-            <input type="email" name="email" id="campo-obrigatorio" placeholder="Email *">
-            <label class="label esconder" id="campo-obrigatorio" for="email">campo obrigatório</label>
+            <input type="email" class="input padrao" name="email" id="email" placeholder="Email *">
+            <label class="label esconder" for="email">campo obrigatório</label>
 
-            <input type="tel" name="telefone" id="campo-obrigatorio" placeholder="Telefone *">
-            <label class="label esconder" id="campo-obrigatorio" for="telefone">campo obrigatório</label>
+            <input type="tel" class="input padrao" name="telefone" id="telefone" placeholder="Telefone *">
+            <label class="label esconder" for="telefone">campo obrigatório</label>
 
-            <textarea name="mensagem" id="" placeholder="Mensagem *"></textarea>
-            <label class="label esconder" id="campo-obrigatorio" for="mensagem">campo obrigatório</label>
-            <!-- <input type="text" class="mensagem" placeholder="Mensagem *"> -->
-            <label class="label-fixo">*campos obrigatórios</label>
-            <button class="btn">Enviar</button>
+            <!-- <textarea name="mensagem" wrap="hard" cols="40" rows="3" maxlength="300" placeholder="Mensagem *"></textarea> -->
+
+            <input type="text" class="input mensagem padrao" id="mensagem" placeholder="Mensagem *">
+            <label class="label esconder" for="mensagem">campo obrigatório</label>
+
+            <label class="label-fixo" for="todos">*campos obrigatórios</label>
+            <button type="submit" class="btn">Enviar</button>
         </form>
     </main>
+
+    <script type="text/javascript" src="./src/js/index.js"></script>
 </body>
 </html>
