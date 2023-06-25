@@ -1,0 +1,14 @@
+@media(max-width: 766px){
+    .main{
+        flex-direction: column;
+        padding: 1rem 4.5rem;
+    }
+
+    .main .descricao{margin-bottom: 3rem;}
+
+    .main .descricao{align-items: flex-start;}
+    
+    .main .descricao p{width: 100%;}
+
+    .main .formulario{margin: 0;}
+}

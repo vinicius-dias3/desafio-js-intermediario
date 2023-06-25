@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
-html{
-    font-family: 'Roboto', sans-serif;
-}
+html{font-family: 'Roboto', sans-serif;}
 
 body{
     display: flex;
@@ -41,9 +39,7 @@ body{
     text-transform: uppercase;
 }
 
-.main .descricao span{
-    display: block;
-}
+.main .descricao span{display: block;}
 
 .main .descricao p{
     width: 286px;
@@ -68,27 +64,19 @@ body{
     position: relative;
 }
 
-.main .formulario .input.padrao{
-    border: 1px solid black;
-}
+.main .formulario .input.padrao{border: 1px solid black;}
 
 .main .formulario .input:not(:first-child){
     margin-top: 19px;
 }
 
-.main .formulario .input::placeholder{
-    font-weight: 700;
-}
+.main .formulario .input::placeholder{font-weight: 700;}
 
 .main .formulario .input.mensagem{
     height: 100px;
     margin-bottom: 0px;
     position: relative;
 }
-
-/* .main.formulario .textarea{ TENTEI ADICIONAR A ESTILIZAÇÃO E NÃO DEU CERTO
-    resize: none;
-} */
 
 .main .formulario .input.mensagem::placeholder{
     position: absolute;
@@ -103,13 +91,9 @@ body{
     position: absolute;
 }
 
-.main .formulario .label.esconder{
-    display: none;
-}
+.main .formulario .label.esconder{display: none;}
 
-.main .formulario .label.mostrar{
-    display: block;
-}
+.main .formulario .label.mostrar{display: block;}
 
 .main .formulario .label-fixo{
     margin-top: 16px;
