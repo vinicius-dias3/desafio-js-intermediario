@@ -15,7 +15,7 @@ O desafio consiste em construir um formulário com os seguintes itens:
 - Javascript
 
 ### Dificuldades
-escrever depois
+A dificuldade, foi associar cada input aos seus respectivos labels. Revisei o conceito do `forEach` consegui aplicar com sucesso. 
 
 ### Demonstração do projeto
 ![demonstracao do projeto](./src/images/projeto-pronto.gif)
